@@ -1,0 +1,447 @@
+PYTHON ASSIGNMENT-II
+
+1. What are the data types in Python? Explain.
+A. Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance of these classes. 
+There are various data types in Python. Five of the important datatypes are listed below.
+Numeric
+A numeric value is any representation of data which has a numeric value. Python identifies 3 types of numbers:
+Integer: It includes Positive or Negative whole numbers.
+Float: It includes any real number with a floating point representation in which a fractional component.
+Complex number: It includes the combination of a real number and imaginary component represented as x+yj, where x and y are real numbers and value of j is -1. 
+Boolean
+Data with one of two built-in values True or False. In this ‘T’ and ‘F’ are of upper case. true and false are not valid and Python will throw an error for them.
+Sequence Type
+A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:
+String: A String value is a collection of one or more characters put in single, double or triple quotes.
+List: A List object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
+Tuple: A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses.
+Dictionary
+A dictionary object is an unordered collection of data in a key:value pair form. A collection of such pairs is enclosed in curly brackets. 
+Ex: {1: “Steve”, 2: “Bill”, 3: “Ram”, 4: “Farah”}.
+
+
+2. Briefly explain history of Python.
+A. Python is an interpreted, high-level, general-purpose programming language. Created by “Guido van Rossum” and first released in 1991, Python’s design philosophy emphasizes code readability with its notable use of significant white space.
+Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programing.
+Python is often described as a “batteries included” language due to its comprehensive standard library. Python was conceived in the late 1980’s as a successor to the ABC language.
+Python 2.0, released in 2000, introduced features like list comprehensions and a garbage collection systems with reference counting.
+Python 3.0, released in 2008, was a major revision of the language which is not completely backward-compatible and many of the Python 2 codes doesn’t run unmodified on Python 3.
+The Python 2 language was officially discontinued in 2020 and Python 2.7.18 is the last Python 2.7 released and therefore, the last Python 2 released.
+No more security patches or other improvements will be released for it. With Python 2’s end-of-life, only Python 3.5.x and later are supported.
+Python interpreters are available for many operating systems. A global community of programmers develops and maintains CPython, an open source reference implementation.
+A non-profit organization, the Python software Foundation, manages and direct the resources for Python and CPython developments.
+
+
+
+
+3. Explain all the operators in Python.
+A. Operators are special symbols in Python that carry out arithmetic or logical computations. The value that operator operates on is called operand.
+Arithmetic Operators:
+Arithmetic operators are used to perform mathematical operations like +, -, *, /, etc. 
+       Operator
+       Meaning
+        Example
+
+         
++
+
+
+-
+
+
+
+
+*
+
+
+/
+
+
+
+%
+(modulus)
+
+
+
+
+
+//
+(floor division)
+
+
+
+
+**
+
+add 2 operands (or) unary plus
+
+subtracts right operand from the left (or) unary minus 
+
+multiplies 2 operands
+
+divides left operand by the right one
+
+gives the remainder of the division of left operand by right
+
+
+Division that results into whole number adjusted to the left in number line.
+
+Left operand raised to the power of right operand 
+
+x+y
+
+
+x-y
+
+
+
+
+x*y
+
+
+
+x/y
+
+
+
+x%y
+
+
+
+
+
+
+x//y
+
+
+
+
+
+x**y
+
+       
+Comparison Operators:
+Comparison operators are used to compare values. It returns either True or False according to the condition.
+      Operator
+      Meaning
+       Example
+
+
+>
+
+
+
+
+
+<
+
+
+
+
+==
+(Equal to)
+
+!=
+(Not equal to)
+
+>=
+(Greater than or equal to)
+
+
+<=
+(less than or equal to)
+
+Greater than-True if left operand is greater than the right
+
+Less than-True if left operand is less than the right
+
+True if both operands are equal
+True if operands are not equal
+
+True left operand is greater than or equal to the right
+
+True if left operand is less than or equal to the right
+
+x>y
+
+
+
+
+
+X<y
+
+
+
+
+X==y
+
+
+X!=y
+
+
+X>=y
+
+
+
+
+X<=y
+
+
+
+Logical Operators:
+Logical operators are the and, or, not operators.
+      Operators
+      Meaning
+        Example
+
+
+
+And
+
+
+Or
+
+
+
+Not
+
+
+True if both the operands are true
+
+True if either of the operands is true
+
+True if operand is false
+
+X and y
+
+
+X or y
+
+
+
+not x
+
+
+Bit-wise Operators:
+Bitwise operators act on operands as if they were strings of binary digits. They operate bit by bit, hence the name.
+For example, 2 is 10 in binary and 7 is 111.
+       Operators
+     Meaning
+         Example
+
+
+&
+
+|
+
+-
+
+^
+
+>>
+
+
+<<
+
+Bitwise AND
+
+Bitwise OR
+
+Bitwise NOT
+
+Bitwise XOR
+
+Bitwise right 
+Shift
+
+Bitwise left shift
+
+x&y=0
+
+x|y=14
+
+-x-=-11
+
+X^y=14
+
+x>>2=2
+
+
+x<<2=40
+
+ 
+Assignment operators:
+Assignment operators are used in Python to assign values to variables. a=5 is a simple assignment operator that assign value 5 on the right to the variable a on the left. There are various compounds operators in Python like a+=5 that adds to the variable and later assigns the same. It is equivalent to a=a+5
+        Operator
+        Example
+      Equivalent to
+
+=
+
++=
+
+-=
+
+*=
+
+/=
+
+%=
+
+//=
+
+**=
+
+&=
+
+|=
+
+^=
+
+>>=
+
+<<=
+X=5
+
+X+=5
+
+x-=5
+
+x*=5
+
+x/=5
+
+x%=5
+
+x//=5
+
+x**=5
+
+x&=5
+
+x|=5
+
+x^=5
+
+x>>=5
+
+x<<=5
+X=5
+
+X=x+5
+
+X=x-5
+
+X=x*5
+
+X=x/5
+
+X=x%5
+
+X=x//5
+
+X=x**5
+
+X=x&5
+
+X=x|5
+
+X=x^5
+
+X=x>>5
+
+X=x<<5
+
+ 
+Special Operators:
+Python language offers some special types of operators like the identity operator or the membership operator. They are described below with examples.
+
+Identity Operators:
+is and is not are the identity operators in Python. They are located on the same part of the memory. Two variables that are equal does not imply that they are identical.
+Operator
+Meaning
+Example
+
+
+Is
+
+
+
+is not
+
+True if the operands are identical
+
+True if the operands are not identical
+
+X is true
+
+
+
+X is not true
+
+
+h) Membership operators:
+    ‘in’ and ‘not in’ are the membership operators in Python. They are used to test whether a value or variable is found in a sequence. 
+Operator
+Meaning
+Example
+
+in
+
+
+
+
+
+not in
+
+
+
+True if value/variable is found in the sequence
+
+True if value/variable is not found in the sequence
+5inx
+
+
+
+
+
+5 not in x
+
+
+
+4. Explain the features of Python.
+A. Python provides lots of features that are listed below.
+Easy to learn and use
+Python is high level programming language. It is easy to learn and use. It is developer-friendly and high level programming language.
+Expressive language
+Python language is more expressive that means it is more understandable and readable.
+Interpreted language
+Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.
+Cross-platform language
+Python can run equally on different platforms such as Windows, Linux, UNIX and Macintosh etc. So we can say that Python is a portable language.
+Free and Open source
+Python language is freely available at official web address. The source-code is also available. Therefore it is open source.
+Object-Oriented Language
+Python supports object oriented language and concepts of classes, objects and encapsulation etc. come into existence.
+
+
+
+Extensible
+Python is an Extensible language. It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our Python code.
+Large Standard Library
+Python has a large and broad library and provides rich set of module and functions for rapid application development. 
+GUI Programing Support
+Graphical user interfaces can be developed using Python.
+10) Integrated
+       It can be easily integrated with the languages like C, C++ and JAVA etc.
+
+
+5. Justify why Python is interactive interpreted language.
+A. unlike C/C++ etc., Python is an interpreted object-oriented language. By interpreted it is meant that each time a program is run the interpreter checks through the code for errors and then interprets the instructions into machine-readable byte code.
+An interpreter is a translator in computer’s language which translates the given code line-by-line in machine readable byte codes. And if any error is encountered it stops the translation until the error is fixed.
+Unlike C language, which is a compiled programming language. The compiler translates the whole code in one-go rather than line-by-line. This is the reason why in C language, all the errors are listed during compilation only.
+When a Python statement is entered, and is followed by the return key, if appropriate, the result will be printed on the screen immediately in the next line. This is particularly advantageous in the debugging process.
+In interactive mode of operation, Python is used in a similar way as the UNIX command line or the terminal. Interactive Python is very much helpful for the debugging purpose.
+It simply returns the “>>>” prompt or the corresponding output of the statement if appropriate and returns error for incorrect statements.
+In this way if you have any doubts like: whether the syntax is correct or the module you are importing exists or anything like that, you can be sure within seconds using Python interactive mode.
